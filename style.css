@@ -1,0 +1,74 @@
+/* Theme Name: astra Child Theme
+
+Theme URI: 
+
+Description: This is a Child Theme for Astra
+
+Author: Saul Monique
+
+Author URI: saulmoniquedev.com
+
+Template: astra
+
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: responsive-layout, two-column, responsive-layout
+
+Text Domain: astra-child-theme */
+
+
+.container{
+    background-color: #ffffff55;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+
+.containerpopup {
+    background-color: white;
+    padding: 20px;
+    z-index: 11;
+}
+
+#x-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px;
+    align-items: end;
+}
+
+fieldset{
+    border: none;
+  }
+
+  .hidden{
+    position: fixed;
+    left: -100vh;
+    top: -100vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-out;
+  }
+
+  .visible{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease-in;
+  }
+
+  .fade-out{
+    opacity: 0;
+    visibility: hidden;
+  }

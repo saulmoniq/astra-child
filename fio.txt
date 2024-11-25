@@ -1,0 +1,14 @@
+ Please create a popup form that collects user information and saves it to a table in the database. Please
+ adhere to the following:
+ • You will use the button titled, "Send Me More Information" in the "How it Works" section to
+ trigger your popup.
+ • The popup should be centered on the screen and blur the main site content.
+ • The popup should fade in rather than appear suddenly.
+ • Clicking outside of the form area should close the popup.
+ • Form data should be sanitized prior to insertion into the database.
+ • The form data should be saved without refreshing the page.
+ • Display a message to the user after the save operation has completed or failed.
+ • You may choose to have the message and popup fade out after [x] seconds or provide a way for
+ the user to manually close. This is your choice.
+ • Please stick to using colors in the site's scheme.
+ • Please do not install any plugins to complete this task.
